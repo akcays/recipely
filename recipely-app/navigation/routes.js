@@ -59,6 +59,25 @@ const RecipeStack = StackNavigator({
   }
 });
 
+const NoteStack = StackNavigator({
+  Notes: {
+    screen: NoteScreen,
+    navigationOptions: ({navigation}) => ({
+      title: 'All Notes'
+    }),
+  },
+}, {
+  cardStyle: {
+    paddingTop: Constants.statusBarHeight,
+  }
+});
+
+// NoteStack.navigationOptions = ({ navigation }) => {
+//   return {
+//     title: 'All notes',
+//   }
+// };
+
 const SearchTab = TabNavigator({
   Popular: {
     screen: PopularScreen,
