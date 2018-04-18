@@ -1,5 +1,7 @@
 # Recipely
 
+![Alt Text](https://media.giphy.com/media/1qXGYdbllmcxCqiy2C/giphy.gif)
+
 ## Team
 
   - __Product Owner__: [Ilke Akcay](https://github.com/akcays)
